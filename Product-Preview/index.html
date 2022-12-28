@@ -18,24 +18,24 @@
 <body>
   <main>
     <section class="product-preview">
-      <div class="image">
+      
+        <div class="image">
+          <picture>
+            <source class="img-desplay" media="(max-width: 375px)" srcset="/Product-Preview/images/image-product-mobile.jpg" alt="">
+            <source class="img-desplay" media="(max-width: 600px)" srcset="/Product-Preview/images/image-product-mobile.jpg" alt="">
+            <source class="img-desplay" media="(max-width: 1440px)" srcset="/Product-Preview/images/image-product-desktop.jpg" alt="">
+            <img class="img-desplay" src="/Product-Preview/new/image/image-product-desktop.jpg" alt="">
+          </picture>
+        </div>
      
 
-        <picture>
-          <source class="img-desplay" media="(max-width: 375px)" srcset="/Product-Preview/images/image-product-mobile.jpg" alt="">
-          <source class="img-desplay" media="(max-width: 600px)" srcset="/Product-Preview/images/image-product-mobile.jpg" alt="">
-          <source class="img-desplay" media="(max-width: 1440px)" srcset="/Product-Preview/images/image-product-desktop.jpg" alt="">
-          <img class="img-desplay" src="/Product-Preview/new/image/image-product-desktop.jpg" alt="">
-        </picture>
-  
-      </div>
-    
-      <div class="contents">
-        <h3 class="header">Perfume</h3>
-        <div class="brand">
-          <h1>
-            Gabrielle Essence Eau De Parfum
-          </h1>
+      <div class="contents-container">
+        <div class="contents">
+          <h3 class="header">Perfume</h3>
+          <div class="brand">
+            <h1>
+              Gabrielle Essence Eau De Parfum
+            </h1>
         </div>
       
         <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for
@@ -43,7 +43,7 @@
       
         <p class="price">$149.99 <del class="sales">$169.99</del></p>
         <button><img src="/Product-Preview/images/icon-cart.svg" alt=""> Add to Cart</button>
-      
+        </div>
       </div>
 
               
