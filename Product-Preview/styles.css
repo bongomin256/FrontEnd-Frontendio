@@ -24,7 +24,7 @@ body {
 
 .img-desplay {
     max-width: 100%;
-    /* max-height: 100%; */
+    
     display: block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -41,7 +41,7 @@ body {
     bottom: 0;
     margin: auto;
     max-height: fit-content;
-    /* margin: 2rem 1.2rem; */
+   
 }
 
 .contents {
@@ -70,6 +70,7 @@ body {
     /* font-family: Fraunces; */
     line-height: 2rem;
     color: var(--Dark-grayish-blue);
+
 }
 .price {
     font-size: 2.5rem;
