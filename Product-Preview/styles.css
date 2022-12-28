@@ -67,7 +67,6 @@ body {
 
 .description {
     font-size: 1.1rem;
-    /* font-family: Fraunces; */
     line-height: 2rem;
     color: var(--Dark-grayish-blue);
 
@@ -85,7 +84,6 @@ body {
 
 .sales {
     color: var(--Dark-grayish-blue);
-    /* text-decoration: line-through; */
     font-weight: 400;
    font-size: medium;
 }
@@ -102,7 +100,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    /* font-weight: bold; */
+    
 
 }
 
@@ -117,34 +115,31 @@ button:hover {
         /* max-width: 800px; */
         /* margin: 20rem 25rem; */
     }
-   .img-containter {
-    /* flex: 1; */
-   }
-   .contents-container {
-    flex: 1;
-   }
+
+   
 
     .image {
          flex: 1;
     
     }
+
+     .contents-container {
+        flex: 1;
+    }
     
-        .contents {
-            /* flex: 1; */
-            padding-left: 3rem;
-            padding-right: 3rem;
-            /* padding: 3rem; */
-            /* margin-top: 4rem;
-            margin-left:rem ; */
-     
-        }
+    .contents {
+            
+        padding-left: 3rem;
+        padding-right: 3rem;
+         
+    }
       
-        .img-desplay {
+    .img-desplay {
         
-            width: 100%;
-            border-bottom-left-radius: 10px;
-            border-top-right-radius: 0px;
-        }
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
 
     .brand h1 {
         font-size: 3rem;
