@@ -79,8 +79,9 @@ body {
 
 .sales {
     color: var(--Dark-grayish-blue);
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     font-weight: 400;
+   font-size: medium;
 }
 
 button {
