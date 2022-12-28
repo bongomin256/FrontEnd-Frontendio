@@ -34,13 +34,14 @@ body {
     max-width: 800px;
     background-color: var(--White);
     border-radius: 10px;
-    position: absolute;
+    /* position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
     margin: auto;
-    max-height: fit-content;
+    max-height: fit-content; */
+    margin: 2rem 1.2rem;
    
 }
 
@@ -158,6 +159,15 @@ button:hover {
     }
     .header{
         margin-top: 2rem;
+    }
+    .product-preview {
+        position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            max-height: fit-content;
     }
 }
 
