@@ -20,12 +20,10 @@
 
 
 body {
-    background: var(--Light-gray);
-   display: flex;
+   background: var(--Light-gray);
+   /* display: flex;
    justify-content: center;
-   align-items: center;
-   
-    
+   align-items: center; */
 }
 main {
     padding: 1.5rem;
@@ -33,12 +31,18 @@ main {
 }
 .card {
     width: 330px;
-        height: 500px;
+    height: 500px;
     /* max-width: 330px;
     max-height: 550px; */
     background-color: var(--White);
     border-radius: 1rem;
     padding: 1rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     
   
 }
