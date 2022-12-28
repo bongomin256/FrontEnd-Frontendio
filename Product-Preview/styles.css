@@ -31,11 +31,19 @@ body {
 }
 
 .product-preview {
-    /* max-width: 375px; */
-    /* width: 100%; */
-    /* width: 100vw; */
+    max-width: 800px;
     background-color: var(--White);
     border-radius: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: fit-content;
+    
+   
+
     /* margin: 20rem 25rem; */
 
 
@@ -114,12 +122,12 @@ button:hover {
 
     .image {
          flex: 1;
-
+    
     }
     
         .contents {
             flex: 1;
-            padding: 3rem;
+            /* padding: 3rem; */
             /* margin-top: 4rem;
             margin-left:4rem ; */
      
